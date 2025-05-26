@@ -28,7 +28,7 @@
     "web.json"
   ],
   "scripts": {
-    "release": " bumpp && pnpm publish --no-git-checks"
+    "release": "bumpp && pnpm publish --no-git-checks"
   },
   "devDependencies": {
     "bumpp": "catalog:cli",

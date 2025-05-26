@@ -13,7 +13,7 @@ Extend one of the provided configurations in your tsconfig.json based on your pr
 ```json
 {
   // base | node | web | library
-	"extends": "@octohash/tsconfig/web.json"
+  "extends": "@octohash/tsconfig/web.json"
 }
 ```
 
