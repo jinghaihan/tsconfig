@@ -13,7 +13,7 @@ Extend one of the provided configurations in your tsconfig.json based on your pr
 ```json
 {
   // base | node | web | library
-	"extends": "@octohash/tsconfig/web.json"
+  "extends": "@octohash/tsconfig/web.json"
 }
 ```
 
@@ -30,3 +30,7 @@ Choose the preset that most closely matches your project environment:
 + `base.json` as a starting point for custom configurations
 
 You can always extend and override specific settings in your project's tsconfig.json as needed.
+
+## License
+
+[MIT](./LICENSE) License © [jinghaihan](https://github.com/jinghaihan)

@@ -2,7 +2,7 @@
   "name": "@octohash/tsconfig",
   "type": "module",
   "version": "0.1.0",
-  "packageManager": "pnpm@10.11.0",
+  "packageManager": "pnpm@10.13.1",
   "description": "Shared TypeScript config for my projects.",
   "author": "jinghaihan",
   "license": "MIT",
@@ -28,7 +28,11 @@
     "web.json"
   ],
   "scripts": {
-    "release": " bumpp && pnpm publish --no-git-checks"
+    "deps": "taze major -I",
+    "release": "bumpp && pnpm publish --no-git-checks",
+    "catalog": "pncat",
+    "bootstrap": "pnpm install",
+    "preinstall": "npx only-allow pnpm"
   },
   "devDependencies": {
     "bumpp": "catalog:cli",
