@@ -1,0 +1,38 @@
+{
+  "name": "@octohash/tsconfig",
+  "type": "module",
+  "version": "0.0.0",
+  "packageManager": "pnpm@10.11.0",
+  "description": "Shared TypeScript config for my projects.",
+  "author": "jinghaihan",
+  "license": "MIT",
+  "homepage": "https://github.com/jinghaihan/tsconfig#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinghaihan/tsconfig.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jinghaihan/tsconfig/issues"
+  },
+  "keywords": [
+    "typescript",
+    "tsconfig"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "base.json",
+    "library.json",
+    "node.json",
+    "web.json"
+  ],
+  "scripts": {
+    "release": " bumpp && pnpm publish --no-git-checks"
+  },
+  "devDependencies": {
+    "bumpp": "catalog:cli",
+    "pncat": "catalog:cli",
+    "taze": "catalog:cli"
+  }
+}
