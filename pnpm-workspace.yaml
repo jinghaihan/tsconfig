@@ -1,6 +1,6 @@
 packages: []
 catalogs:
   cli:
-    bumpp: ^10.1.1
-    pncat: ^0.2.3
+    bumpp: ^10.2.1
+    pncat: ^0.4.0
     taze: ^19.1.0
