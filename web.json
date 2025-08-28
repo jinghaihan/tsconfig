@@ -7,8 +7,8 @@
     "jsxImportSource": "vue",
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "moduleResolution": "bundler",
-    "types": ["vite/client"],
     "declaration": true,
-    "noEmit": false
+    "noEmit": false,
+    "types": ["vite/client"]
   }
 }

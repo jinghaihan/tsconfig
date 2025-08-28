@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "VSCode Config",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": ["ESNext"],
+    "moduleResolution": "node",
+    "skipDefaultLibCheck": true
+  }
+}

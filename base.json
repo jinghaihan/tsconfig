@@ -15,10 +15,5 @@
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "skipLibCheck": true
-  },
-  "exclude": [
-    "**/node_modules/**",
-    "**/dist/**",
-    "**/.turbo/**"
-  ]
+  }
 }
